@@ -5,7 +5,7 @@ int main()
 {
     
     const int dollar_value {100};
-    const int quarter_value {25}; 
+    const double quarter_value {25}; 
     const int dime_value {10};
     const int nickle_value {5};
     const int penny_value {1}; 
@@ -21,7 +21,14 @@ int main()
     dollar = amount / dollar_value;
     balance = amount % dollar_value;
     
+    quarter =  amount / quarter_value; 
+    balance %= quarter_value; 
+    
+    
+    
     cout << dollar << endl; 
+    cout << quarter << endl; 
+    cout << balance << endl; 
     
     
     

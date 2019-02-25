@@ -6,7 +6,8 @@
   <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
   <Project Name="CPPLab1_1" Path="CPPLab1_1/CPPLab1_1.project" Active="No"/>
   <Project Name="U_Section8" Path="U_Section8/U_Section8.project" Active="No"/>
-  <Project Name="ue74" Path="ue74/ue74.project" Active="Yes"/>
+  <Project Name="ue74" Path="ue74/ue74.project" Active="No"/>
+  <Project Name="PID" Path="PID/PID.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -18,6 +19,7 @@
       <Project Name="CPPLab1_1" ConfigName="Debug"/>
       <Project Name="U_Section8" ConfigName="Debug"/>
       <Project Name="ue74" ConfigName="Debug"/>
+      <Project Name="PID" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -29,6 +31,7 @@
       <Project Name="CPPLab1_1" ConfigName="Release"/>
       <Project Name="U_Section8" ConfigName="Release"/>
       <Project Name="ue74" ConfigName="Release"/>
+      <Project Name="PID" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
