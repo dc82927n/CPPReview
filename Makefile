@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ PID1 - Debug ]----------"
-	@cd "PID1" && "$(MAKE)" -f  "PID1.mk"
+	@echo "----------Building project:[ UE_ForLoop_integers - Debug ]----------"
+	@cd "UE_ForLoop_integers" && "$(MAKE)" -f  "UE_ForLoop_integers.mk"
 clean:
-	@echo "----------Cleaning project:[ PID1 - Debug ]----------"
-	@cd "PID1" && "$(MAKE)" -f  "PID1.mk" clean
+	@echo "----------Cleaning project:[ UE_ForLoop_integers - Debug ]----------"
+	@cd "UE_ForLoop_integers" && "$(MAKE)" -f  "UE_ForLoop_integers.mk" clean

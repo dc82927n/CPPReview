@@ -8,7 +8,10 @@
   <Project Name="U_Section8" Path="U_Section8/U_Section8.project" Active="No"/>
   <Project Name="ue74" Path="ue74/ue74.project" Active="No"/>
   <Project Name="PID" Path="PID/PID.project" Active="No"/>
-  <Project Name="PID1" Path="PID1/PID1.project" Active="Yes"/>
+  <Project Name="PID1" Path="PID1/PID1.project" Active="No"/>
+  <Project Name="ue79" Path="ue79/ue79.project" Active="No"/>
+  <Project Name="U79challenge" Path="U79challenge/U79challenge.project" Active="No"/>
+  <Project Name="UE_ForLoop_integers" Path="UE_ForLoop_integers/UE_ForLoop_integers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -22,6 +25,9 @@
       <Project Name="ue74" ConfigName="Debug"/>
       <Project Name="PID" ConfigName="Debug"/>
       <Project Name="PID1" ConfigName="Debug"/>
+      <Project Name="ue79" ConfigName="Debug"/>
+      <Project Name="U79challenge" ConfigName="Debug"/>
+      <Project Name="UE_ForLoop_integers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -35,6 +41,9 @@
       <Project Name="ue74" ConfigName="Release"/>
       <Project Name="PID" ConfigName="Release"/>
       <Project Name="PID1" ConfigName="Release"/>
+      <Project Name="ue79" ConfigName="Release"/>
+      <Project Name="U79challenge" ConfigName="Release"/>
+      <Project Name="UE_ForLoop_integers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
