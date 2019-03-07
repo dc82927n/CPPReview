@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ UE_ForLoop_integers - Debug ]----------"
-	@cd "UE_ForLoop_integers" && "$(MAKE)" -f  "UE_ForLoop_integers.mk"
+	@echo "----------Building project:[ CPPLab1_1 - Debug ]----------"
+	@cd "CPPLab1_1" && "$(MAKE)" -f  "CPPLab1_1.mk"
 clean:
-	@echo "----------Cleaning project:[ UE_ForLoop_integers - Debug ]----------"
-	@cd "UE_ForLoop_integers" && "$(MAKE)" -f  "UE_ForLoop_integers.mk" clean
+	@echo "----------Cleaning project:[ CPPLab1_1 - Debug ]----------"
+	@cd "CPPLab1_1" && "$(MAKE)" -f  "CPPLab1_1.mk" clean

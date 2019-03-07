@@ -16,10 +16,7 @@ int main()
 }
     
     
-    
-    if() 
-        statment 
-        statment   
+   
     
     
 

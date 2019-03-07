@@ -4,14 +4,19 @@
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
   <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
   <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
-  <Project Name="CPPLab1_1" Path="CPPLab1_1/CPPLab1_1.project" Active="No"/>
+  <Project Name="CPPLab1_1" Path="CPPLab1_1/CPPLab1_1.project" Active="Yes"/>
   <Project Name="U_Section8" Path="U_Section8/U_Section8.project" Active="No"/>
   <Project Name="ue74" Path="ue74/ue74.project" Active="No"/>
   <Project Name="PID" Path="PID/PID.project" Active="No"/>
   <Project Name="PID1" Path="PID1/PID1.project" Active="No"/>
   <Project Name="ue79" Path="ue79/ue79.project" Active="No"/>
   <Project Name="U79challenge" Path="U79challenge/U79challenge.project" Active="No"/>
-  <Project Name="UE_ForLoop_integers" Path="UE_ForLoop_integers/UE_ForLoop_integers.project" Active="Yes"/>
+  <Project Name="UE_ForLoop_integers" Path="UE_ForLoop_integers/UE_ForLoop_integers.project" Active="No"/>
+  <Project Name="U95_C-String" Path="U95_C-String/U95_C-String.project" Active="No"/>
+  <Project Name="UE98" Path="UE98/UE98.project" Active="No"/>
+  <Project Name="UFunction_overview" Path="UFunction_overview/UFunction_overview.project" Active="No"/>
+  <Project Name="UE103" Path="UE103/UE103.project" Active="No"/>
+  <Project Name="UE105" Path="UE105/UE105.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -28,6 +33,11 @@
       <Project Name="ue79" ConfigName="Debug"/>
       <Project Name="U79challenge" ConfigName="Debug"/>
       <Project Name="UE_ForLoop_integers" ConfigName="Debug"/>
+      <Project Name="U95_C-String" ConfigName="Debug"/>
+      <Project Name="UE98" ConfigName="Debug"/>
+      <Project Name="UFunction_overview" ConfigName="Debug"/>
+      <Project Name="UE103" ConfigName="Debug"/>
+      <Project Name="UE105" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -44,6 +54,11 @@
       <Project Name="ue79" ConfigName="Release"/>
       <Project Name="U79challenge" ConfigName="Release"/>
       <Project Name="UE_ForLoop_integers" ConfigName="Release"/>
+      <Project Name="U95_C-String" ConfigName="Release"/>
+      <Project Name="UE98" ConfigName="Release"/>
+      <Project Name="UFunction_overview" ConfigName="Release"/>
+      <Project Name="UE103" ConfigName="Release"/>
+      <Project Name="UE105" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
