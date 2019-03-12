@@ -4,7 +4,7 @@ using namespace std;
 
 //    bool allAreEqual(int a, int b, int c);
 bool allAreEqual(int a, int b, int c) {
-    if  ((a == b  == c)) {
+    if  ((a == b) && (b == c) && (a == c)){
         return true; 
     } else {
         return false;
@@ -13,7 +13,7 @@ bool allAreEqual(int a, int b, int c) {
 
 //    bool twoAreEqual(int a, int b, int c);
 bool twoAreEqual(int a, int b, int c){
-    if ((a == b) || (b == c) || (c == a)){
+    if ((a == b && b != c) || (b == c && c != a) || (a == c && b != a)){
         return true;
     } else 
         return false;
@@ -23,7 +23,7 @@ bool twoAreEqual(int a, int b, int c){
 //    bool noneAreEqual(int a, int b, int c);
     
     bool noneAreEqual(int a, int b, int c){
-        if ((a != b) && (b != c)){
+        if ((a != b) && (b != c) && ( c != a)){
             return true;
         } else 
             return false;

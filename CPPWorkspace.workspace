@@ -4,7 +4,7 @@
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
   <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
   <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
-  <Project Name="CPPLab1_1" Path="CPPLab1_1/CPPLab1_1.project" Active="Yes"/>
+  <Project Name="CPPLab1_1" Path="CPPLab1_1/CPPLab1_1.project" Active="No"/>
   <Project Name="U_Section8" Path="U_Section8/U_Section8.project" Active="No"/>
   <Project Name="ue74" Path="ue74/ue74.project" Active="No"/>
   <Project Name="PID" Path="PID/PID.project" Active="No"/>
@@ -17,6 +17,8 @@
   <Project Name="UFunction_overview" Path="UFunction_overview/UFunction_overview.project" Active="No"/>
   <Project Name="UE103" Path="UE103/UE103.project" Active="No"/>
   <Project Name="UE105" Path="UE105/UE105.project" Active="No"/>
+  <Project Name="UE119" Path="UE119/UE119.project" Active="Yes"/>
+  <Project Name="UE120" Path="UE120/UE120.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -38,6 +40,8 @@
       <Project Name="UFunction_overview" ConfigName="Debug"/>
       <Project Name="UE103" ConfigName="Debug"/>
       <Project Name="UE105" ConfigName="Debug"/>
+      <Project Name="UE119" ConfigName="Debug"/>
+      <Project Name="UE120" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -59,6 +63,8 @@
       <Project Name="UFunction_overview" ConfigName="Release"/>
       <Project Name="UE103" ConfigName="Release"/>
       <Project Name="UE105" ConfigName="Release"/>
+      <Project Name="UE119" ConfigName="Release"/>
+      <Project Name="UE120" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

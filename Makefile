@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CPPLab1_1 - Debug ]----------"
-	@cd "CPPLab1_1" && "$(MAKE)" -f  "CPPLab1_1.mk"
+	@echo "----------Building project:[ UE119 - Debug ]----------"
+	@cd "UE119" && "$(MAKE)" -f  "UE119.mk"
 clean:
-	@echo "----------Cleaning project:[ CPPLab1_1 - Debug ]----------"
-	@cd "CPPLab1_1" && "$(MAKE)" -f  "CPPLab1_1.mk" clean
+	@echo "----------Cleaning project:[ UE119 - Debug ]----------"
+	@cd "UE119" && "$(MAKE)" -f  "UE119.mk" clean
