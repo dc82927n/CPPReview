@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ UE119 - Debug ]----------"
-	@cd "UE119" && "$(MAKE)" -f  "UE119.mk"
+	@echo "----------Building project:[ CodeLab1_2 - Debug ]----------"
+	@cd "CodeLab1_2" && "$(MAKE)" -f  "CodeLab1_2.mk"
 clean:
-	@echo "----------Cleaning project:[ UE119 - Debug ]----------"
-	@cd "UE119" && "$(MAKE)" -f  "UE119.mk" clean
+	@echo "----------Cleaning project:[ CodeLab1_2 - Debug ]----------"
+	@cd "CodeLab1_2" && "$(MAKE)" -f  "CodeLab1_2.mk" clean

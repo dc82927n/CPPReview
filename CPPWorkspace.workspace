@@ -17,8 +17,10 @@
   <Project Name="UFunction_overview" Path="UFunction_overview/UFunction_overview.project" Active="No"/>
   <Project Name="UE103" Path="UE103/UE103.project" Active="No"/>
   <Project Name="UE105" Path="UE105/UE105.project" Active="No"/>
-  <Project Name="UE119" Path="UE119/UE119.project" Active="Yes"/>
-  <Project Name="UE120" Path="UE120/UE120.project"/>
+  <Project Name="UE119" Path="UE119/UE119.project" Active="No"/>
+  <Project Name="UE120" Path="UE120/UE120.project" Active="No"/>
+  <Project Name="CPPlab1_2" Path="UEtest1/UEtest1.project" Active="No"/>
+  <Project Name="CodeLab1_2" Path="CodeLab1_2/CodeLab1_2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -42,6 +44,8 @@
       <Project Name="UE105" ConfigName="Debug"/>
       <Project Name="UE119" ConfigName="Debug"/>
       <Project Name="UE120" ConfigName="Debug"/>
+      <Project Name="CPPlab1_2" ConfigName="Debug"/>
+      <Project Name="CodeLab1_2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -65,6 +69,8 @@
       <Project Name="UE105" ConfigName="Release"/>
       <Project Name="UE119" ConfigName="Release"/>
       <Project Name="UE120" ConfigName="Release"/>
+      <Project Name="CPPlab1_2" ConfigName="Release"/>
+      <Project Name="CodeLab1_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -7,6 +7,6 @@ int main()
     int *score_ptr (&score); 
     
     
-    
+
 
 }
